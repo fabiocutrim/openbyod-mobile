@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">OpenBYOD</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="openDrawer">open_drawer</string>
+    <string name="closeDrawer">close_drawer</string>
+
+    <!-- Login screen labels -->
+    <string name="userNameHint">E-mail</string>
+    <string name="passwordHint">Senha</string>
+    <string name="btnEntrar">Entrar</string>
+
+    <!-- Navigation Drawer menu labels -->
+    <string name="nav_home">Home</string>
+    <string name="nav_contatos">Agenda</string>
+    <string name="nav_new_contact">Criar Contato</string>
+    <string name="nav_inbox">E-mail</string>
+    <string name="nav_new_email">Escrever E-mail</string>
+    <string name="nav_arquivos">Arquivos</string>
+    <string name="nav_notifications">Notificações</string>
+    <string name="nav_settings">Configurações</string>
+    <string name="nav_about_us">Quem Somos</string>
+    <string name="nav_privacy_policy">Política de Privacidade</string>
+    <string name="nav_sair">Sair</string>
+
+    <!-- Toolbar titles when navigation menu item is selected -->
+    <string-array name="nav_item_activity_titles">
+        <item>Home</item>
+        <item>Agenda</item>
+        <item>E-mail</item>
+        <item>Arquivos</item>
+        <item>Notificações</item>
+    </string-array>
+
+    <string name="activity_title_about_us">Quem Somos</string>
+    <string name="activity_title_privacy_policy">Política de Privacidade</string>
+    <string name="action_clear_all">Limpar Todas</string>
+    <string name="action_mark_all_read">Marcar todas como lidas</string>
+
+    <!-- Alert Strings -->
+    <string name="senha_curta">A senha inserida é muito curta!</string>
+    <string name="campo_requerido">Preencha este campo!</string>
+    <string name="telefone_invalido">Número de telefone inválido!</string>
+    <string name="email_invalido">E-mail inválido!</string>
+
+    <!-- New Contato Strings -->
+    <string name="contactNameHint">Nome</string>
+    <string name="contactNumberHint">Telefone</string>
+    <string name="contactEmailHint">E-mail</string>
+    <string name="contactEmpresaHint">Empresa</string>
+
+    <!-- New Email Strings -->
+    <string name="remetenteHint">Remetente</string>
+    <string name="destinatarioHint">Destinatário</string>
+    <string name="assuntoHint">Assunto</string>
+    <string name="corpoHint">Conteúdo</string>
+</resources>

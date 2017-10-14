@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="br.edu.ifma.openbyodmobileside">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_OWNER_DATA" />
+    <uses-permission android:name="android.permission.READ_OWNER_DATA" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar">
+        <activity
+            android:name="br.edu.ifma.openbyodmobileside.activity.ActivityLogin"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="br.edu.ifma.openbyodmobileside.activity.ActivityPrincipal"
+            android:label="@string/app_name">
+        </activity>
+        <activity
+            android:name="br.edu.ifma.openbyodmobileside.activity.ActivityQuemSomos"
+            android:theme="@style/AppTheme"
+            android:label="@string/activity_title_about_us">
+        </activity>
+        <activity
+            android:name="br.edu.ifma.openbyodmobileside.activity.ActivityPoliticaDePrivacidade"
+            android:theme="@style/AppTheme"
+            android:label="@string/activity_title_privacy_policy">
+        </activity>
+        <activity
+            android:name="br.edu.ifma.openbyodmobileside.activity.ActivityCriptografia"
+            android:theme="@style/AppTheme"
+            android:label="Informações da Requisição">
+        </activity>
+    </application>
+
+</manifest>

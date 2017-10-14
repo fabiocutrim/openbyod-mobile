@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="@string/nav_home" />
+        <item
+            android:id="@+id/nav_agenda"
+            android:icon="@drawable/ic_phone_agenda_black_24dp"
+            android:title="@string/nav_contatos" />
+        <item
+            android:id="@+id/nav_email"
+            android:icon="@drawable/ic_email_black_24dp"
+            android:title="@string/nav_inbox" />
+        <item
+            android:id="@+id/nav_arquivos"
+            android:icon="@drawable/ic_photo_library_black_24dp"
+            android:title="@string/nav_arquivos" />
+        <item
+            android:id="@+id/nav_notifications"
+            android:icon="@drawable/ic_notifications_black_24dp"
+            android:title="@string/nav_notifications" />
+    </group>
+    <item android:title="Sobre">
+        <menu>
+            <item
+                android:id="@+id/nav_about_us"
+                android:title="@string/nav_about_us" />
+            <item
+                android:id="@+id/nav_privacy_policy"
+                android:title="@string/nav_privacy_policy" />
+            <item
+                android:id="@+id/nav_criptografia"
+                android:title="Criptografia" />
+            <item
+                android:id="@+id/nav_sair"
+                android:title="@string/nav_sair" />
+        </menu>
+    </item>
+</menu>

@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="br.edu.ifma.openbyodmobileside.activity.ActivityCriptografia">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    
+    <TextView
+        android:text="Chave Simétrica"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"  />
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/chaveSimetrica"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+    </android.support.design.widget.TextInputLayout>
+
+    <TextView
+        android:text="Mensagem Original"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"  />
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/mensagemOriginal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+    </android.support.design.widget.TextInputLayout>
+
+    <TextView
+        android:text="Mensagem Criptografada"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"  />
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/requisicao"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+    </android.support.design.widget.TextInputLayout>
+
+    <TextView
+        android:text="Chave Criptografada"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"  />
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/chaveCriptografada"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+    </android.support.design.widget.TextInputLayout>
+
+    <TextView
+        android:text="Tempo Geração Chave (segundos)"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"  />
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/tempoGeracaoChave"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+    </android.support.design.widget.TextInputLayout>
+
+    <TextView
+        android:text="Tempo Criptografia Requisição (segundos)"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"  />
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/tempoCriptografiaRequisicao"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+    </android.support.design.widget.TextInputLayout>
+
+    <TextView
+        android:text="Tempo Criptografia Chave (segundos)"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"  />
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/tempoCriptografiaChave"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+    </android.support.design.widget.TextInputLayout>
+
+    <TextView
+        android:text="Tempo Resposta Requisição (segundos)"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"  />
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/tempoResposta"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+    </android.support.design.widget.TextInputLayout>
+
+    <TextView
+        android:text="Status Resposta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"  />
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/statusCode"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+    </android.support.design.widget.TextInputLayout>
+
+    <TextView
+        android:text="Token Enviado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"  />
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/tokenEnviado"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+    </android.support.design.widget.TextInputLayout>
+
+        <TextView
+            android:text="Token Recebido"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"  />
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/tokenRecebido"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+        </android.support.design.widget.TextInputLayout>
+
+    <TextView
+        android:text="Mensagem Resposta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"  />
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/mensagemResposta"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+    </android.support.design.widget.TextInputLayout>
+
+    <TextView
+        android:text="Mensagem Decriptografada"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"  />
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/mensagemDecriptografada"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+    </android.support.design.widget.TextInputLayout>
+
+    </LinearLayout>
+
+</ScrollView>
